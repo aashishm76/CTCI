@@ -3,30 +3,24 @@ import java.util.*;
 
 public class IsUnique
 {
-  int count, i;
   String entry;
-
-  Scanner userInput = new Scanner(System.in);
-
-  public void UniqueStringChecker()
-  {
-    System.out.println("Enter a phrase: ");
-    entry = userInput.nextLine();
-
-    for (i = 0; i < entry.length(); i++)
-    {
-      if(Character.isLetter(entry[i]) == true)
-        count++;
-    }
-
-    if (count == entry.length())
-      System.out.println("String is totally unique.");
-    else
-      System.out.println("String is not completely unique.");
-  }
+  int i;
 
   public static void main(String[] args)
   {
-    UniqueStringChecker();
+    // Scanner instance to read user input
+    Scanner userInput;
+    userInput = new Scanner(System.in);
+
+    // Get user input
+    System.print.ln("Enter a string: ");
+    entry = userInput.nextLine();
+
+    System.print.ln(entry);
+
+    // Convert the user input to an array
+
+
   }
+
 }
